@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle das sugestões</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style_sugetoes.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/1Logo-mundial de Clubes.jpg">
+</head>
+<body>
+   <header>
+    <div>
+       <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="logo ">
+        <img src="img/1Logo-mundial de Clubes.jpg" width="50" height="50" alt="logo">
+   </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 bs-tertiary-color">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="1-index.html" id="D1">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="4-quem_somos.html" id="D2">Quem somos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="D3">
+            Times
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item"  href="fluminense.html" l><img src="img/logo-flu.png">Fluminense</a></li>
+            <li><a class="dropdown-item" href="borrusia.html"><img src="img/logo-Boru.png">Borrusia Dortmund</a></li>
+            <li><a class="dropdown-item" href="ulsan.html"><img src="img/logo-ulsan.png">Ulsan HD</a></li>
+            <li><a class="dropdown-item" href="sundowns.html"><img src="img/logo-Sun.png">Mamelodi Sundowns</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="2-form.html" id="D4">Sugestões</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html" id="D5">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="Bt">
+    <div id="THEME"></div>
+    <h3 id="BT1" onclick="ptbr(false)">PTBR</h3>
+    <h3 id="BT2" onclick="ptbr(true)">ENG</h3>
+  </div>
+</nav>
+    </div>
+</header>
+
+<div class="section2">
+<div id="boxwhite">
+    <main class="admin-main-content">
+        <div class="container">
+            <section class="messages-section section-block">
+                <div id="messagesList">
+                    <p class="no-messages-yet">Nenhuma mensagem recebida ainda.</p>
+                </div>
+                <button id="clearAllMessages" class="clear-button">Limpar Todas as Mensagens</button>
+                <p id="adminMessage" class="admin-message"></p>
+            </section>
+        </div>
+    </main>
+</div>
+</div>
+<footer>
+<div class="copy">
+<h4 id="D10">Todos os direitos reservados &copy; WebDev 2025</h4>
+</div> 
+</footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/sugestoes.js"></script>
+</body>
+</html>

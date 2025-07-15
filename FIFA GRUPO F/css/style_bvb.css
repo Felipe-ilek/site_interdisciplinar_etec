@@ -1,0 +1,740 @@
+.navbar {
+    background-color: black;
+}
+
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link active {
+    color: white;
+}                                                                                                                   
+
+body {
+    background-color: rgba(5, 19, 38, 1);
+}
+
+.dropdown-menu {
+   background-color: rgba(151, 157, 166, 1);
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(196, 158, 82);
+}
+
+.imagem-home {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-color: #F2D785;
+    width: 100%;
+}
+
+.dropdown-menu {
+  background-color: rgba(151, 157, 166, 1);
+}
+
+.dropdown-menu  > li{
+  display: flex;
+  flex-direction: row;
+}
+
+.dropdown-menu  > li > a >img{
+  width: 35px;
+  margin: 4px;
+}
+
+.dropdown-item {
+
+ font-size: 16px;
+
+ color: #333;
+}
+
+.titulo {
+    display: flex;
+    float: left;
+    background-color: gray;
+}
+
+.section2{
+display: grid;
+min-width: 80%;
+flex-flow: nowrap;
+align-self: center;
+bottom: 0;
+margin-top: 40px;
+}
+
+.noticias{
+ min-width: 200px;
+ display: grid;
+ flex-flow: nowrap;
+ 
+}
+ 
+.boxwhite{
+background-color: rgba(242, 242, 242, 1);
+min-height: 500px;
+padding: 2%;
+align-items: center;
+}
+.lineblue{
+    background-color: rgba(5, 19, 38, 1);
+    width: 100%;
+    height: 3px;
+    margin: 10px;
+}
+ 
+footer{
+background-color: black;
+width: 100vmax;
+min-height: 200px;
+padding-top: 150px;
+align-items: center;
+justify-items: center;
+}
+
+.container{
+    display: flex;
+    background-color: gray;
+    justify-content: left;
+}
+
+.esc-home{
+    display: flex;
+    justify-content: left;
+    width: 100px;
+    height: 100px;
+}
+
+.esc-visi{
+    display: flex;
+    justify-content: right;
+    width: 100px;
+    height: 100px;
+}
+
+/*Noticias*/
+.Newsbox{
+    width:100%;
+    height: max-content;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.Tabelafut{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.x {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card-body{
+    width: max-content;
+    height: max-content;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.card{
+    margin: 10px;
+    align-items: center;
+}
+
+.card-uls{
+    margin: 10px;
+    align-items: center;
+}
+
+.Newsimg{
+    display: flex;
+    padding: 10px;
+    object-fit: cover;
+    text-size-adjust: 20px;
+}
+
+.Imgtext {
+ position: absolute;
+ z-index: 1;
+ top: 85%;
+ width: 59.5%;
+ text-align: right;
+ display: block;
+ background-color: rgb(112, 18, 18);
+ padding: 10px;
+ color: aliceblue;
+ font-size-adjust: 30px;
+}
+
+.copy {
+    display: flex;
+}
+
+.Timeselect{
+ background: rgb(196, 158, 82);
+
+}
+
+.boxesT{
+ display: flex;
+    height: max-content;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: space-evenly;
+ 
+}
+
+.boxesT > a{
+ background-color: rgb(248, 248, 248);
+ display: flex;
+ flex-direction: column;
+ list-style-type: none;
+ margin: 10px;
+ font-size: 30px;
+ border-style: solid;
+ border-color: black;
+ border-width: 3px;
+ font-weight: bold;
+ text-align: center;
+ color: black;
+ text-decoration: none;
+}
+
+
+
+.boxesT > li:hover{
+    box-shadow: 4px 4px 10px;
+   }
+
+
+
+.boxesT > li > img{
+    max-width: 200px;
+}
+
+.boxesT > li > img:hover{
+    max-width: 210px;
+}
+
+@media screen and (max-width: 991px){
+    .Newsbox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Newsbox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navbar{
+        width: 100%;
+    }
+
+    .boxesT  {
+        justify-content: center;
+    }
+
+    .boxesT > a {
+        margin: 20px;
+        font-size: 10px;
+    }
+
+    .boxesT > a > img{
+        max-width: 100px;
+    }
+    
+    .boxesT > a > img:hover{
+        max-width: 110px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .Newsbox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Newsbox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navbar{
+        width: 100%;
+    }
+
+    .boxesT  {
+        justify-content: flex-start;
+    }
+
+    .boxesT > a {
+        margin: 20px;
+        font-size: 10px;
+    }
+
+    .boxesT > a > img{
+        max-width: 100px;
+    }
+    
+    .boxesT > a > img:hover{
+        max-width: 110px;
+    }
+}
+
+.comp {
+  display: flex;
+  justify-content: space-around;
+  background-color: #888;
+}
+
+
+.liga{
+    display: grid;
+    justify-content: left;
+}
+
+/* Banner Borussia Dortmund com imagem */
+.bvb-banner {
+    width: 100%;
+    background: linear-gradient(to right, #fced00, #f0c800);
+    padding: 15px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: slideIn 0.8s ease-out forwards;
+    opacity: 0;
+  }
+  
+  .bvb-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .bvb-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    animation: pulse 1s infinite;
+    background-color: black;
+    padding: 5px;
+  }
+  
+  .bvb-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .bvb-titulo {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 1px 1px 0 black;
+  }
+  
+  .bvb-slogan {
+    font-size: 14px;
+    font-style: italic;
+    color: #222;
+    margin: 0;
+  }
+
+  .copy_boru {
+    display: flex;
+  }
+
+  .footer_boru {
+    background: linear-gradient(to right, #fced00, #f0c800);
+    width: 100%;
+    min-height: 200px;
+    padding-top: 150px;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .ouro {
+    display:flex ;
+    justify-content: space-around;
+    background-color: #f0c800;
+  }
+
+  .ouro > img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  
+  /* Animações */
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6);
+    }
+    70% {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+  .overflow{
+    color: #fff;
+  }
+  .text-center {
+    color: #fff;
+  }
+  .linewhite {
+    background-color: #fff;
+    width: 100%;
+    height: 3px;
+    margin: 10px;
+  }
+  .overflow-y-scroll {
+    color: #fff;
+  }
+
+
+    /* flu */
+  .flu-banner {
+    width: 100%;
+    background: linear-gradient(to right, rgb(135, 10, 40), rgb(0, 97, 60));
+    padding: 15px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: slideIn 0.8s ease-out forwards;
+    opacity: 0;
+  }
+  
+  .flu-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .flu-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    animation: pulse 1s infinite;
+    background-color: rgb(0, 97, 60);
+    padding: 5px;
+  }
+  
+  .flu-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .flu-titulo {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+  }
+  
+  .flu-slogan {
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    margin: 0;
+  }
+
+  .copy_flu {
+    display: flex;
+  }
+
+  .footer_flu {
+    background: linear-gradient(to right, rgb(135, 10, 40), rgb(0, 97, 60));
+    width: 100%;
+    min-height: 200px;
+    padding-top: 150px;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .ouro-flu {
+    display:flex ;
+    justify-content: space-around;
+    background-color:rgb(135, 10, 40);
+  }
+
+  .ouro-flu > img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  /* ulsan */
+
+  .uls-banner {
+    width: 100%;
+    background: linear-gradient(to right, rgb(0, 0, 255), rgb(0, 0, 100));
+    padding: 15px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: slideIn 0.8s ease-out forwards;
+    opacity: 0;
+  }
+  
+  .uls-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .uls-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    animation: pulse 1s infinite;
+    background-color: rgb(0, 0, 255);
+    padding: 5px;
+  }
+  
+  .uls-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .uls-titulo {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+  }
+  
+  .uls-slogan {
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    margin: 0;
+  }
+
+  .copy_uls {
+    display: flex;
+  }
+
+  .footer_uls {
+    background: linear-gradient(to right, rgb(0, 0, 255), rgb(0, 0, 100));
+    width: 100%;
+    min-height: 200px;
+    padding-top: 150px;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .ouro-uls {
+    display:flex ;
+    justify-content: space-around;
+    background-color:rgb(0, 0, 255);
+  }
+
+  .ouro-uls > img {
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+
+   /* M. Sundowns */
+
+  .mms-banner {
+    width: 100%;
+    background: linear-gradient(to right, rgb(255, 255, 0), rgb(0, 102, 0));
+    padding: 15px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: slideIn 0.8s ease-out forwards;
+    opacity: 0;
+  }
+  
+  .mms-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .mms-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    animation: pulse 1s infinite;
+    background-color: rgb(255, 255, 0);
+    padding: 5px;
+  }
+  
+  .mms-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .mms-titulo {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+  }
+  
+  .mms-slogan {
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    margin: 0;
+  }
+
+  .copy_mms {
+    display: flex;
+  }
+
+  .footer_mms {
+    background: linear-gradient(to right, rgb(255, 255, 0), rgb(0, 102, 0));
+    width: 100%;
+    min-height: 200px;
+    padding-top: 150px;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .ouro-mms {
+    display:flex ;
+    justify-content: space-around;
+    background-color:rgb(0, 102, 0);
+  }
+
+  .ouro-mms > img {
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+   /*Elenco*/
+
+   .scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+    gap: 1rem;
+    background-color: black;
+  }
+
+  /* Estilo da barra de rolagem (visÃ­vel embaixo) */
+  .scrolling-wrapper::-webkit-scrollbar {
+    height: 30x; /* altura da barra */
+  }
+
+  .scrolling-wrapper::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+  }
+
+  .scrolling-wrapper::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+  .card {
+    flex: 0 0 auto; /* impede que o card encolha */
+    width: 250px;
+    transition: width 1s, height 1s;
+    background-color: #888;
+
+  }
+  .card:hover {
+      width: 300px;
+      
+  }
+
+  .card-body {
+      flex-direction: column;
+      background-color: #888;
+  }
+  
+  .card-title {
+      font-weight: bold;
+  }
+
+  /* Titulos */
+
+
+.carrossel {
+      display: flex;
+      overflow-x: auto;
+      gap: 1rem;
+      padding: 1rem;
+      scroll-snap-type: x mandatory;
+    }
+
+    .carrossel::-webkit-scrollbar {
+      display: none;
+    }
+
+    .item {
+      flex: 0 0 auto;
+      width: 300px;
+      scroll-snap-align: start;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .item img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .info {
+      padding: 1rem;
+    }
+
+    .info h2 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .info h5 {
+      font-size: 1rem;
+      color: #666;
+      margin: 0;
+    }
+     .info h6 {
+      font-size: 1rem;
+      color: #666;
+      margin: 0;
+    }
